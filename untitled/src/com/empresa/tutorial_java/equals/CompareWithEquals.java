@@ -1,3 +1,5 @@
+package com.empresa.tutorial_java.equals;
+
 class CompareWithEquals {
 
     public static void main(String[] args) {
@@ -9,7 +11,7 @@ class CompareWithEquals {
         System.out.println(s1 == s2); // true
         System.out.println(s1 == s3); // true
         System.out.println(s1 == s4); // false: referencias distintas
-        
+
         String s1 = "hola";
         String s2 = s1;
         String s3 = "hola";
